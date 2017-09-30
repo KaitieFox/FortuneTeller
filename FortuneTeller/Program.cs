@@ -73,7 +73,7 @@ namespace FortuneTeller
             //I am struggling to get switch to run right.
             Console.WriteLine("BMO also requires your favorite color.");
             Console.WriteLine("In Roy G Biv, please!");
-            Console.WriteLine("Or in case you don't know, say to me Help!");
+            Console.WriteLine("Or in case you don't know, say to me \"Help\"!");
             string fColor = Console.ReadLine().Trim().ToLower();
             
 
