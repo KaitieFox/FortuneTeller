@@ -13,10 +13,11 @@ namespace FortuneTeller
             //Welcome Statement
             Console.WriteLine("Welcome to Finn and Jake's Fortune Telling service!");
             Console.WriteLine("I am BMO! Finn and Jake's game!");
+            Console.WriteLine("\nYay BMO!");
 
             //User Input and fortunes
             //names
-            Console.WriteLine("I will need your name.");
+            Console.WriteLine("\nTo start your fortune, I will need your name.");
             string fName = Console.ReadLine();
 
             Console.WriteLine("And your last name too.");
