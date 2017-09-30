@@ -177,7 +177,7 @@ namespace FortuneTeller
             {
                 vacation = " the Slime Kingdom";
             }
-            else if (uSiblings == 3)
+            else if (uSiblings >= 3)
             {
                 vacation = " the Fire Kingdom";
             }
@@ -196,7 +196,7 @@ namespace FortuneTeller
             Console.WriteLine(fName.Trim() + " " + lName.Trim() + " will retire" + uAge);
             Console.WriteLine("with" + uMoney + " in the bank,");
             Console.WriteLine("a vacation home in" + vacation);
-            Console.WriteLine("and a" + userColor + " as your transportation!");
+            Console.WriteLine("and a" + userColor + " as your way to get around!");
 
             Console.WriteLine("\nHurray for BMO!\n");
             
